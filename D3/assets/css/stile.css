@@ -52,6 +52,9 @@ figure>img {
     outline: 1px solid gray;
     outline-offset: 9px;
 }
+figcaption {
+    padding-top: 20px;
+}
 address{
     margin-bottom: 10px;
 }
