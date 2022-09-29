@@ -1,0 +1,183 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url("../img/sfondo.png");
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+/* HEADER */
+header {
+    background-image: linear-gradient(to top, #066787, #00a1c2);
+    text-align: center;
+    color: white;
+    margin: 20px;
+    width: 410px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: large;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.51);
+}
+header img {
+    margin: 30px;
+}
+nav {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link, nav a:hover, nav a:visited {
+    color: white;
+}
+nav a::before {
+    content:'\21D2';
+}
+nav a::after {
+    content:'\21D0';
+}
+hr {
+    display: none;
+}
+/* MAIN */
+main {
+    background-color: white;
+    margin: 20px;
+    width: 410px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.51);
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+    font-weight: 600;
+    font-size: xx-large;
+    padding-top: 20px;
+    line-height: 1.3em;
+}
+h1 + p {
+    color: #a79ca7;
+    line-height: 1.3em;
+    padding: 20px 0 20px 0;
+}
+article {
+    margin: 20px;
+}
+p > strong {
+    color: #a36394;
+    font-weight: 500;
+}
+article li {
+    margin: 20px 20px 20px 40px;
+}
+code {
+    background-color: #DDDDDE;
+    border: 1px solid #9B9F9B;
+    border-radius: 4px;
+    line-height: 1.3em;
+}
+iframe {
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 50px;
+}
+p a:link, p a:hover, p a:visited {
+    color: #00A7CC;
+    font-weight: 500;
+}
+/* TABELLE */
+table {
+    margin: 20px 0;
+    border-bottom: 2px solid #3368C6;
+}
+caption {
+    font-style: italic;
+    font-weight: 700;
+}
+th {
+    background-color: #3368C6;
+    color: white;
+    padding: 20px;
+    border-right: 1px solid white;
+}
+tr {
+    text-align: center;
+    border-top: 1px solid #a79ca7;
+}
+td {
+    padding: 20px;
+}
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+/* FORM */
+ section > h2, aside > h2 {
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px;
+}
+section {
+    background-color: #EEEEEE;
+    padding: 20px;
+}
+section p {
+    line-height: 1.3em;
+    padding-bottom: 20px;
+}
+fieldset {
+    text-align: center;
+}
+fieldset > input {
+    border-bottom: 1px dashed #a79ca7;
+}
+fieldset > button {
+    background-color: #3368C6;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+/* ELEMENTI NELL' ASIDE */
+aside {
+    padding-bottom: 40px;
+}
+aside div {
+    background-color: #EEEEEE;
+    border: 1px solid #a79ca7;
+    margin: 20px;
+    padding: 20px 0;
+}
+div a {
+    margin: 20px;
+}
+div a:link, div a:hover, div a:visited {
+    color: #00A7CC;
+    font-weight: 500;
+}
+div p {
+    margin: 5px 20px;
+}
+div p + p {
+    margin-top: 40px;
+    text-align: right;
+}
+/* FOOTER */
+footer {
+    margin: 20px;
+    background-image: linear-gradient(to top, #2A3437, #005566);
+    color: #B5C6B6;
+    text-align: center;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.51);
+}
+footer p {
+    padding: 20px;
+}
+address {
+    padding: 20px;
+}
+address a:link, address a:hover, address a:visited {
+    color: #FB08F1;
+}
