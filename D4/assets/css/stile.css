@@ -10,8 +10,7 @@ header {
     background-image: linear-gradient(to top, #066787, #00a1c2);
     text-align: center;
     color: white;
-    margin: 20px;
-    width: 410px;
+    margin: 4.4%;
     text-transform: uppercase;
     font-weight: 500;
     font-size: large;
@@ -21,7 +20,7 @@ header img {
     margin: 30px;
 }
 nav {
-    margin: 20px;
+    margin: 4.4%;
     padding-bottom: 20px;
 }
 nav ul {
@@ -46,8 +45,7 @@ hr {
 /* MAIN */
 main {
     background-color: white;
-    margin: 20px;
-    width: 410px;
+    margin: 4.4%;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.51);
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -63,7 +61,7 @@ h1 + p {
     padding: 20px 0 20px 0;
 }
 article {
-    margin: 20px;
+    margin: 4.4%;
 }
 p > strong {
     color: #a36394;
@@ -79,7 +77,7 @@ code {
     line-height: 1.3em;
 }
 iframe {
-    margin: 20px auto;
+    margin: 4.4% auto;
     width: 100%;
     border-radius: 50px;
 }
@@ -147,18 +145,18 @@ aside {
 aside div {
     background-color: #EEEEEE;
     border: 1px solid #a79ca7;
-    margin: 20px;
+    margin: 4.4%;
     padding: 20px 0;
 }
 div a {
-    margin: 20px;
+    margin: 4.4%;
 }
 div a:link, div a:hover, div a:visited {
     color: #00A7CC;
     font-weight: 500;
 }
 div p {
-    margin: 5px 20px;
+    margin: 1% 20px;
 }
 div p + p {
     margin-top: 40px;
@@ -166,7 +164,7 @@ div p + p {
 }
 /* FOOTER */
 footer {
-    margin: 20px;
+    margin: 4.4%;
     background-image: linear-gradient(to top, #2A3437, #005566);
     color: #B5C6B6;
     text-align: center;
