@@ -8,13 +8,14 @@ hr {
 }
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
+    padding: 20px;
 }
 /* HEADER */
 header {
     background-color: #00a0c6;
     text-align: center;
     font-size: x-large;
-    margin-bottom: 0;
+    border-bottom: 5px solid #027794;
 }
 h1 {
     color: white;
@@ -34,7 +35,8 @@ header>h2 {
 }
 /* MAIN */
 main {
-    margin-left: 16px;
+    margin: 20px;
+    line-height: 1.3em;
 }
 /* ELEMENTI NEL MAIN */
 main h2 {
