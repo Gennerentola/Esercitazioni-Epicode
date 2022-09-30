@@ -7,7 +7,7 @@
     font-size: 1.2rem;
     line-height: 1.65rem;
  }
- h1, h2 {
+ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     color: #25a2c3;
     font-weight: bold;
@@ -69,37 +69,29 @@ article img {
     max-width: 426px;
 }
 /* QUOTE */
-div {
+blockquote {
     background-color: #e22d0e;
     color: white;
-    padding-bottom: 35px;
+    padding: 45px 20px;
 }
-div > p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+blockquote h3 {
     font-size: 2em;
-    padding: 45px 0;
+    padding-bottom: 20px;
     line-height: 1.8em;
-}
-blockquote {
-    padding: 0 20px;
 }
 blockquote p {
     font-style: italic;
 }
 cite {
     font-size: 1.2em;
+    display: block;
 }
-blockquote ~ small {
+blockquote small {
     font-size: 0.8em;
 }
 /* SECTION */
 section {
     margin: 60px 30px;
-}
-section img {
-    width: 100%;
-    max-width: 426px;
 }
 figure {
     border: 1px solid #dee1e3;
@@ -107,6 +99,10 @@ figure {
     max-width: 426px;
     margin-left: auto;
     margin-right: auto;
+}
+figure img {
+    width: 100%;
+    max-width: 426px;
 }
  figcaption {
     padding: 0 20px;
@@ -122,12 +118,11 @@ footer {
 footer a:link, footer a:hover, footer a:visited {
     color: #c8e7f0;
 }
-footer > p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+h3 {
     font-size: 2em;
     line-height: 1.8em;
     color: white;
+    padding-bottom: 20px;
 }
 address p{
     padding: 0 40px;
