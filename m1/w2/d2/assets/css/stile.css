@@ -239,10 +239,10 @@ a i {
     background-color: white;
 }
 
-.social a:hover , .social a:visited , .social a:link {
+.social i {
     color: #2266BB;
 }
 
-.home {
+.home i {
     color: #CA78A6;
 }
