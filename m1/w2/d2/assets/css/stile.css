@@ -178,3 +178,71 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+/* MENU ORIZZONTALE */
+header nav li {
+    display: inline-block;
+}
+
+/* HEADER SCORREVOLE */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* IMMAGINE INIZIO PARAGRAFO */
+article img {
+    border: 3px solid #00A0C6;
+    outline: 3px solid #a02571;
+    float: left;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+/* POSIZIONAMENTO "NOVITA" */
+section {
+    position: relative;
+}
+section > h2 {
+    background-color: #a0a0a0;
+    box-shadow: 1px 1px 1px #333;
+    position: absolute;
+    padding: 0 0.8em;
+    left: 0.8em;
+    top: -0.8em;
+}
+
+/* PULSANTI LATERALI */
+.social , .home {
+    font-size: 3em;
+}
+
+.social , .home {
+    position: fixed;
+    right: 0;
+}
+
+.home {
+    bottom: 15px;
+}
+
+.social {
+    bottom: 20%;
+}
+
+.social a {
+    display: block;
+}
+
+a i {
+    background-color: white;
+}
+
+.social a:hover , .social a:visited , .social a:link {
+    color: #2266BB;
+}
+
+.home {
+    color: #CA78A6;
+}
