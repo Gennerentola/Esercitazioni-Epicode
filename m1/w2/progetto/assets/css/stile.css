@@ -1,0 +1,498 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+    font-family: 'Fira Sans';
+    color: #000;
+    line-height: 1.8;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 2.7rem;
+    line-height: 1.1;
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+a, i {
+    color: #e42424;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttonLike {
+    font-size: 1.2rem;
+    color: white;
+    background-image: linear-gradient(to right, #6cc1e2 , #392f7a);
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 12 auto;
+    grid-template-rows: 2 auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 10px rgb(114, 114, 114);
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding: 20px 20px 0 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+label {
+    color: #e42424;
+    padding: 10px 20px;
+    grid-column: 12/13;
+    grid-row: 1/2;
+    text-align: end;
+    font-size: 2rem;
+}
+
+label i {
+    cursor: pointer;
+}
+
+#switch {
+    display: none;
+}
+
+nav {
+    display: none;
+    transition: all 0.3s;
+}
+nav li {
+    padding-left: 50px;
+    line-height: 2.3;
+}
+
+nav .buttonLike {
+    font-weight: 600;
+}
+
+input[type="checkbox"]:checked + nav {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+/* MAIN */
+
+/* BANNER SECTION */
+h1 {
+    color: white;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    padding: 60px 25px 0 25px;
+}
+
+#banner {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+#banner p {
+    color: white;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    padding: 60px 25px 30px 25px;
+    line-height: 1.6;
+}
+
+#banner .buttonLike {
+    margin-left: 25px;
+    animation: pulse 3s infinite 0s;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+@keyframes pulse {
+    0% {box-shadow: 0 0 0 black;}
+    50% {box-shadow: 0 0 20px black;}
+    100% {box-shadow: 0, 0, 20px black;}
+}
+
+/* CORE SECTION */
+#core {
+    text-align: center;
+    margin: 60px 25px;
+}
+
+#core h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #000;
+    text-shadow: 0 0 0;
+}
+
+#core h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#core p {
+    padding-bottom: 30px;
+}
+
+#core figcaption {
+    padding-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#core i {
+    color: #e42424;
+    font-size: 2.7rem;
+}
+
+#core h4 {
+    padding-bottom: 10px;
+}
+
+/* CORE CHI-SIAMO */
+#core img {
+    width: 100%;
+}
+
+/* CORE CONTATTI */
+#core input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 23.2px;
+}
+
+#core input:nth-child(3) {
+    padding-bottom: 100px;
+}
+
+#core fieldset + h3 {
+    padding: 20px 0;
+}
+
+#core div  h3 {
+    padding: 20px 0;
+}
+
+#core address {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 20px 25vw;
+}
+
+address ~ p {
+    padding: 20px 25vw;
+}
+
+/*  WRITEUS SECTION */
+#writeUs {
+    color: white;
+    background-color: #0c0633;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 80px 25px 80px 25px;
+
+}
+
+#writeUs h3 {
+    padding-bottom: 30px;
+}
+
+#writeUs p {
+    padding-bottom: 15px;
+}
+
+/* WHOM SECTION */
+#whom {
+    padding: 0 25px 40px 25px;
+}
+
+#whom img {
+    width: 100%;
+}
+
+#whom div {
+    text-align: center;
+}
+
+#whom div h4 i {
+    color: #e42424;
+}
+
+#whom h4 {
+    padding: 20px 0 15px 0;
+}
+
+/* TABLE CHI-SIAMO.HTML */
+table {
+    width: 80vw;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+caption {
+    font-size: 2rem;
+}
+tbody tr:nth-child(odd) {
+    background-color: #d2dce7;
+}
+
+th {
+    display: none;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+.horzontalTh {
+    font-weight: bolder;
+    color: black;
+    flex-basis: 30%;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+}
+
+footer h4 {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+
+footer p {
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+#social {
+    padding-bottom: 40px;
+}
+
+#social li {
+    display: inline;
+    font-size: 2rem;
+}
+
+footer fieldset {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+footer legend {
+    font-size: 1.4rem;
+    line-height: 1.1;
+    padding-bottom: 20px;
+}
+
+footer fieldset input {
+    height: 37.2px;
+}
+
+fieldset .buttonLike {
+    border: 0;
+}
+
+footer address {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-bottom: 15px;
+}
+
+/* RESPONSIVE INDEX */
+@media screen and (min-width: 768px) {
+    
+    label {
+        display: none;
+    }
+
+    nav {
+        display: block
+    }
+
+    nav ul {
+        display: flex;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #banner * {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    
+    #banner .buttonLike {
+        margin-left: 20vw;
+        position: relative;
+        left: 25px;
+    }
+
+    #core {
+        display: grid;
+        grid-template-columns: 12 auto;
+        grid-template-rows: 3 auto;
+    }
+    
+    #top {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+
+    #first {
+        grid-template: 1/5;
+        grid-row: 2/4;
+    }
+
+    #second {
+        grid-template: 5/9;
+        grid-row: 2/4;
+    }
+
+    #thrid {
+        grid-template: 9/13;
+        grid-row: 2/4;
+    }
+
+    #whom {
+        display: flex;
+        align-items: center;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 12 auto;
+        grid-template-rows: 2 auto;
+    }
+
+    footer section {
+        display: flex;
+        grid-column: 1/9;
+        grid-row: 1/2;
+    }
+    
+    form {
+        grid-column: 9/13;
+        grid-row: 1/2;
+    }
+
+    footer div {
+        grid-column: 1/ 13;
+        grid-row: 2/3;
+    }
+
+}
+/* RESPONSIVE CHI-SIAMO */
+@media screen and (min-width: 768px) {
+
+    #imgContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #core figure img {
+        max-width: 300px;
+        max-height: 200px;
+    }
+
+    #core figcaption {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+/* RESPONSIVE CONTATTI */
+@media screen and (min-width: 768px) {
+    
+    #findUs {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #core address {
+        padding: 20px 10px;
+    }
+
+    address ~ p {
+        padding: 20px 10px;
+    }
+
+    #core fieldset {
+        width: 50vw;
+    }
+
+
+}
+
+/* RESPONSIVE TABLE */
+@media screen and (min-width: 768px) {
+    table {
+        max-width: 780px;
+    }
+
+    tr {
+        display: table-row;
+    }
+
+    .horzontalTh {
+        display: none;
+    }
+
+    th {
+        display: table-cell;
+        color: white;
+        background-color: #5F82A3;
+        font-weight: bold;
+    }
+}
+
+/* RESPONSIVENESS 1170px */
+@media screen and (min-width:1170px) {
+    #core, #whom {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
