@@ -143,7 +143,7 @@ h1 {
 @keyframes pulse {
     0% {box-shadow: 0 0 0 black;}
     50% {box-shadow: 0 0 20px black;}
-    100% {box-shadow: 0, 0, 20px black;}
+    100% {box-shadow: 0, 0, 0 black;}
 }
 
 /* CORE SECTION */
@@ -224,7 +224,7 @@ address ~ p {
     background-color: #0c0633;
     text-align: center;
     margin-bottom: 60px;
-    padding: 80px 25px 80px 25px;
+    padding: 80px 25px;
 
 }
 
@@ -259,33 +259,34 @@ address ~ p {
 
 /* TABLE CHI-SIAMO.HTML */
 table {
+    max-width: 780px;
     width: 80vw;
     margin: 0 auto 30px auto;
     text-align: center;
 }
+
 caption {
     font-size: 2rem;
 }
+
 tbody tr:nth-child(odd) {
     background-color: #d2dce7;
 }
 
-th {
+.horzontalTh {
     display: none;
 }
 
-tr {
-    display: flex;
-    flex-direction: column;
+th {
+    color: white;
+    background-color: #5F82A3;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
-.horzontalTh {
-    font-weight: bolder;
-    color: black;
-    flex-basis: 30%;
+td {
+    font-size: 1rem;
 }
-
-
 
 /* FOOTER */
 footer {
@@ -468,24 +469,27 @@ footer address {
 }
 
 /* RESPONSIVE TABLE */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+    
+    #horizontalTh {
+        font-size: 1.2rem;
+        flex-basis: 30%;
+    }
     table {
-        max-width: 780px;
-    }
-
-    tr {
-        display: table-row;
-    }
-
-    .horzontalTh {
-        display: none;
-    }
-
+        text-align: left;
+        margin-bottom: 20px;
+      }
+    tbody {
+        display:flex;
+        flex-direction: column;
+      }
     th {
-        display: table-cell;
-        color: white;
-        background-color: #5F82A3;
-        font-weight: bold;
+        display: none;
+      }
+    
+    table td {
+        display: flex;
+        font-size: 1rem;
     }
 }
 
