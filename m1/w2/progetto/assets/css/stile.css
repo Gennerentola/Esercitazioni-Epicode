@@ -471,9 +471,9 @@ footer address {
 /* RESPONSIVE TABLE */
 @media screen and (max-width: 768px) {
     
-    #horizontalTh {
-        font-size: 1.2rem;
+    table b {
         flex-basis: 30%;
+        font-weight: bold;
     }
     table {
         text-align: left;
