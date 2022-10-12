@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to left top, rgb(255, 106, 0), rgb(160, 45, 0), rgb(255, 106, 0));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
