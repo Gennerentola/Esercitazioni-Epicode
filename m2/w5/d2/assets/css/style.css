@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style-type: none;
+}
+
+body {
+    background: linear-gradient(to top left, rgb(178, 60, 1), rgb(244, 102, 0));
+    min-height: 100vh;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+}
