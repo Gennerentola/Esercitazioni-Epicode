@@ -77,7 +77,7 @@ body {
 .warning-button {
     background-color: $arancione;
     color: $bianco;
-    border-radius: 0;
+    border: 2px outset;
     height: 30px;
     &:hover {
         background-color: darken($color: $arancione, $amount: 15%);

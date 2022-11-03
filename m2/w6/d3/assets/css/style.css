@@ -79,7 +79,7 @@ body {
 .warning-button {
   background-color: orange;
   color: white;
-  border-radius: 0;
+  border: 2px outset;
   height: 30px;
 }
 .warning-button:hover {
