@@ -1,0 +1,75 @@
+$palette: (
+    "main-colour": #6610F2,
+    "gradient-fading": #7B31F3,
+    "secondary-colour": #fd2751,
+    "background-lorem": #F5F5F5,
+);
+
+.gradientBg {
+    background: linear-gradient(to top, map-get($palette, "main-colour"), map-get($palette, "gradient-fading"));
+    color: adaptiveTextColor(map-get($palette, "main-colour"));
+    .nav-link {
+        color: map-get($palette, "secondary-colour");
+        &:hover {
+            color: lighten($color: map-get($palette, "secondary-colour"), $amount: 20%);
+        }
+    }
+}
+
+.navbar-toggler {
+    color: map-get($palette, "secondary-colour");
+}
+
+#skyline {
+    background-image: url("../img/pexels-aleksandar-pasaric-325185.jpg");
+    background-color: map-get($palette, "background-lorem");
+    background-position-y: 35%;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 300;
+    color: adaptiveTextColor(map-get($palette, "background-lorem"));
+}
+
+#newsletterBtn {
+    background-color: map-get($palette,"main-colour");
+    color: adaptiveTextColor(map-get($palette, "main-colour"));
+    &:hover {
+        background-color: lighten($color: map-get($palette, "main-colour"), $amount: 10%);
+    }
+}
+
+#loremIpsum {
+    background-color: map-get($palette,"background-lorem");
+    color: adaptiveTextColor(map-get($palette, "background-lorem"));
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.partnerLogos {
+    width: 140px;
+}
+
+.carouselImg {
+    width: 100px;
+}
+
+.customerName {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.loremIcon {
+    font-size: 44px;
+}
+
+.quoteIcon {
+    color: map-get($palette, "secondary-colour");
+    font-size: 32px;
+}
