@@ -1,0 +1,26 @@
+[
+    {
+        "titolo": "Il libro dei cinque anelli",
+        "autore": "Miyamoto Musashi",
+        "genere": "trattato",
+        "editore": "BUR Rizzoli"
+    },
+    {
+        "titolo": "La ricerca onirica dello sconosciuto Kadath",
+        "autore": "Howard Phillips Lovecraft",
+        "genere": "romanzo",
+        "editore": "Rusconi Libri"
+    },
+    {
+        "titolo": "Il richiamo della foresta",
+        "autore": "Jack London",
+        "genere": "romanzo",
+        "editore": "Edizioni Piemme"
+    },
+    {
+        "titolo": "L'arte della guerra",
+        "autore": "Sun Tzu",
+        "genere": "trattato",
+        "editore": "Feltrinelli Editore"
+    }
+]

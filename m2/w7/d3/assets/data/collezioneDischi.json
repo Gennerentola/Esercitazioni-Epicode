@@ -1,0 +1,38 @@
+[
+    {
+        "album": "Ossidiana",
+        "artista": "Folkstone",
+        "genere": "folk metal",
+        "anno": 2017
+    },
+    {
+        "album": "Takk...",
+        "artista": "Sigur Ros",
+        "genere": "post-rock",
+        "anno": 2005
+    },
+    {
+        "album": "Slipknot",
+        "artista": "Slipknot",
+        "genere": "nu metal",
+        "anno": 1999
+    },
+    {
+        "album": "Holy Hell",
+        "artista": "Architects",
+        "genere": "metalcore",
+        "anno": 2018
+    },
+    {
+        "album": "Monster",
+        "artista": "Kiss",
+        "genere": "hard rock",
+        "anno": 2012
+    },
+    {
+        "album": "Sundowning",
+        "artista": "Sleep Token",
+        "genere": "avant-garde metal",
+        "anno": 2019
+    }
+]
