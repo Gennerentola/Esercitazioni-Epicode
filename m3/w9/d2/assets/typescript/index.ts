@@ -23,8 +23,8 @@ class SonAccount {
 
 class MotherAccount extends SonAccount {
     addInterest: number;
-    constructor (balanceInit: number = 0, _addInterest:number = 1.1) {
-        super(balanceInit);
+    constructor (_balanceInit: number = 0, _addInterest:number = 1.1) {
+        super(_balanceInit);
         this.addInterest = _addInterest;
     }
     oneDeposit() {

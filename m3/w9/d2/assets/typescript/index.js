@@ -38,10 +38,10 @@ var SonAccount = /** @class */ (function () {
 }());
 var MotherAccount = /** @class */ (function (_super) {
     __extends(MotherAccount, _super);
-    function MotherAccount(balanceInit, _addInterest) {
-        if (balanceInit === void 0) { balanceInit = 0; }
+    function MotherAccount(_balanceInit, _addInterest) {
+        if (_balanceInit === void 0) { _balanceInit = 0; }
         if (_addInterest === void 0) { _addInterest = 1.1; }
-        var _this = _super.call(this, balanceInit) || this;
+        var _this = _super.call(this, _balanceInit) || this;
         _this.addInterest = _addInterest;
         return _this;
     }
