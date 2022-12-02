@@ -1,0 +1,7 @@
+<div class="container">
+  <ul class="list-group mt-3">
+    <li class="list-group-item list-group-item-action" (click)="navigate(user.id)" *ngFor="let user of users">{{user.name}}</li>
+  </ul>
+</div>
+<hr class="container">
+<router-outlet></router-outlet>

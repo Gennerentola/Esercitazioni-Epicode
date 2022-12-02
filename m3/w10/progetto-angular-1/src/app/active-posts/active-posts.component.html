@@ -1,0 +1,19 @@
+<div class="container d-flex flex-wrap justify-content-around">
+  <div class="card w-25 m-4" *ngFor="let post of posts" [ngClass]="{
+  'bg-warning': post.type == 'news',
+  'bg-success': post.type == 'education',
+  'bg-dark': post.type == 'politic',
+  'text-white': post.type == 'politic'
+}">
+    <h5 class="card-header"><span appMarker class="text-black rounded p-1">Post</span></h5>
+    <div class="card-body">
+      <h5 class="card-title">{{post.title | toUpCase}}</h5>
+      <p class="card-text">{{post.body}}</p>
+      <div class="d-flex justify-content-between">
+        <button class="btn btn-primary" (click)="switchActive(post.id)">Disattiva</button>
+        <button class="btn btn-info">Dettagli</button>
+        <button class="btn btn-danger" (click)="removePost(post.id)">Cancella</button>
+      </div>
+    </div>
+  </div>
+</div>
